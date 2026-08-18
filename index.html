@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CA3 Memorise Only</title>
+<style>
+:root{--bg:#f7f3ee;--paper:#fffdf9;--ink:#2b2927;--muted:#756e68;--line:#ded5cc;--accent:#8d463b;--soft:#f6e7df;}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+header{position:sticky;top:0;z-index:5;background:rgba(255,253,249,.96);border-bottom:1px solid var(--line);padding:14px 18px}
+header .wrap{max-width:900px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:14px}
+h1{font-size:19px;margin:0}
+nav{display:flex;gap:7px;overflow:auto}
+nav a{white-space:nowrap;text-decoration:none;color:var(--accent);background:var(--soft);padding:7px 10px;border-radius:999px;font-size:12px;font-weight:700}
+main{max-width:900px;margin:auto;padding:26px 16px 60px}
+.hero{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:26px}
+.hero h2{margin:0 0 6px;font-size:27px}
+.hero p{margin:5px 0;color:var(--muted)}
+section{scroll-margin-top:80px;margin-top:30px}
+section h2{font-size:24px;margin:0 0 6px}
+section>p{color:var(--muted);margin:0 0 14px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;margin:9px 0;overflow:hidden}
+.card summary{cursor:pointer;list-style:none;padding:14px 15px;display:flex;justify-content:space-between;gap:12px;font-weight:800}
+.card summary::-webkit-details-marker{display:none}
+.openhint{font-size:11px;color:var(--muted);font-weight:500;white-space:nowrap}
+.keys{padding:10px 15px;background:var(--soft);color:#644b43;font-size:13px}
+.answer{padding:14px 15px;font-size:16px}
+.follow{margin:0 15px 15px;padding:12px 13px;border-left:3px solid var(--accent);background:#fbf5f1;border-radius:0 10px 10px 0;font-size:14px}
+.mini-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.mini-card{background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:12px 13px}
+.mini-card b{display:block;color:var(--accent);margin-bottom:4px}
+.mini-card span{font-size:13px;color:var(--muted)}
+.note{padding:12px 14px;background:#fff8e8;border:1px solid #ead9ad;border-radius:13px;margin:12px 0;font-size:14px}
+@media(max-width:650px){
+  header .wrap{display:block}nav{margin-top:9px}
+  .mini-grid{grid-template-columns:1fr}
+  .answer{font-size:15px}
+}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>CA3 · Memorise Only</h1>
+  <nav>
+    <a href="#part1">Part 1</a>
+    <a href="#wows">WOWS</a>
+    <a href="#star">STAR</a>
+    <a href="#case">Scenario B</a>
+  </nav>
+</div></header>
+
+<main>
+<div class="hero">
+  <h2>Only what you need to remember.</h2>
+  <p>No dashboard. No progress scores. No extra modes. No HEFANG explanation. No long AI-style scripts.</p>
+  <p><b>Part 1:</b> Q1 about 60–90 sec. Other answers about 30–40 sec. <b>Case:</b> remember the key moves, then explain them naturally.</p>
+</div>
+
+<section id="part1">
+<h2>Part 1 · Core Answers</h2>
+<p>Open one question, remember the keywords, then say the answer without trying to copy every word.</p>
+
+    <details class="card">
+      <summary><span>1. Tell me about yourself</span><span class="openhint">tap to show</span></summary>
+      <div class="keys"><b>Remember:</b> graduate → design → projects → careful → future</div>
+      <div class="answer">Good morning, and thank you for the opportunity. I recently completed my Diploma in Multimedia Design at TAR UMT. I enjoy creative work, especially when I can turn an idea into something clear and visual. During my studies, I worked on different design and multimedia projects, both alone and in groups. I learned to manage deadlines, take feedback and improve my work when needed. I would say I am quite careful with details, and I usually check my work before I finish. Now I hope to start my career in a creative role, gain real working experience and keep improving my skills. I am interested in WOWS because the company combines strategy, technology and design.</div>
+    </details>
+
+    <details class="card">
+      <summary><span>2. What are your greatest strengths?</span><span class="openhint">tap to show</span></summary>
+      <div class="keys"><b>Remember:</b> careful → details → check work → fewer mistakes</div>
+      <div class="answer">My main strength is probably attention to detail. I usually notice small mistakes quite quickly, especially in design. I also like to check my work again before I finish it. I think this helps me avoid unnecessary mistakes and produce better work.</div>
+    </details>
+
+    <details class="card">
+      <summary><span>3. What is your greatest weakness?</span><span class="openhint">tap to show</span></summary>
+      <div class="keys"><b>Remember:</b> nervous → overthink → key points → practise</div>
+      <div class="answer">I get nervous before important presentations sometimes. When that happens, I can think too much about what I want to say. So now I prepare a few key points and practise first. That usually helps me feel more comfortable and speak more naturally.</div>
+    </details>
+
+    <details class="card">
+      <summary><span>4. Where do you see yourself in five years?</span><span class="openhint">tap to show</span></summary>
+      <div class="keys"><b>Remember:</b> more confident → independent → responsibility → keep learning</div>
+      <div class="answer">In five years, I hope I am a more confident and independent designer. I do not have one exact job title in mind. I mainly want to handle projects more independently, take on more responsibility and keep improving my skills as I gain experience.</div>
+    </details>
+
+    <details class="card">
+      <summary><span>5. Why should we hire you?</span><span class="openhint">tap to show</span></summary>
+      <div class="keys"><b>Remember:</b> careful → willing to learn → feedback → adapt</div>
+      <div class="answer">I think I am a good fit because I am careful with my work and willing to learn. I take feedback seriously, and I do not mind changing my work when needed. I am still a fresh graduate, so I know I have a lot to learn, but I think I can adapt quite quickly.</div>
+    </details>
+
+    <details class="card">
+      <summary><span>6. Why do you want to work at WOWS?</span><span class="openhint">tap to show</span></summary>
+      <div class="keys"><b>Remember:</b> strategy + technology + design → real problems → learn</div>
+      <div class="answer">What I like about WOWS is that it brings strategy, technology and design together. I like design more when it helps solve a real problem, not when it only looks nice. I also think WOWS would be a good place for me to learn and grow at the start of my career.</div>
+    </details>
+
+    <details class="card">
+      <summary><span>7. What do you know about our company?</span><span class="openhint">tap to show</span></summary>
+      <div class="keys"><b>Remember:</b> global consulting → 1963 → many industries → strategy/tech/design</div>
+      <div class="answer">From what I know, WOWS is a global consulting firm founded in 1963. It works with companies from different industries and helps them solve business problems. Its work includes strategy, technology, design and new ventures. I like that it looks at a problem from more than one side.</div>
+    </details>
+
+    <details class="card">
+      <summary><span>8. Which Purpose Principle resonates most with you and why?</span><span class="openhint">tap to show</span></summary>
+      <div class="keys"><b>Remember:</b> Bring Insight to Light → different view → design</div>
+      <div class="answer">I would choose Bring Insight to Light. To me, it means looking at a problem in a different way instead of always using the obvious solution. That connects with design because I often need to explore different ideas before deciding what works best.</div>
+    </details>
+
+    <details class="card">
+      <summary><span>9. How do your values align with WOWS&#x27;s values?</span><span class="openhint">tap to show</span></summary>
+      <div class="keys"><b>Remember:</b> integrity → respect → feedback</div>
+      <div class="answer">I connect most with integrity and respect for the individual. I think people should be honest about their work and take responsibility when something goes wrong. I also think different opinions should be respected because feedback can help improve the final result.</div>
+    </details>
+
+    <details class="card">
+      <summary><span>10. What interests you about this position?</span><span class="openhint">tap to show</span></summary>
+      <div class="keys"><b>Remember:</b> real work → creative tasks → learn</div>
+      <div class="answer">What interests me most is the chance to use my design skills in a real working environment. I enjoy turning ideas into something clear and visual. I also want to gain real project experience and learn from people with more experience.</div>
+    </details>
+
+    <details class="card">
+      <summary><span>11. What skills make you a good fit for this role?</span><span class="openhint">tap to show</span></summary>
+      <div class="keys"><b>Remember:</b> visual design → detail → feedback → organised</div>
+      <div class="answer">I think my main strengths for this role are visual design, attention to detail and being open to feedback. I am also quite organised when I have several tasks at the same time. I think these skills would help me adapt to real projects.</div>
+    </details>
+
+    <details class="card">
+      <summary><span>12. How would you approach your first 90 days in this role?</span><span class="openhint">tap to show</span></summary>
+      <div class="keys"><b>Remember:</b> learn team → workflow → ask → independent</div>
+      <div class="answer">For the first 90 days, I would mainly focus on learning how the team works. I would understand the workflow, the standards and what people expect from me. I would also ask questions and get feedback early. After that, I would try to handle my tasks more independently.</div>
+    </details>
+</section>
+
+<section id="wows">
+<h2>WOWS · 5 Purpose Principles</h2>
+<p>This is the only extra company list worth memorising.</p>
+<div class="mini-grid"><div class='mini-card'><b>Bring Insight to Light</b><span>new perspectives on difficult problems</span></div><div class='mini-card'><b>Drive Inspired Impact</b><span>think beyond the next deadline and create long-term impact</span></div><div class='mini-card'><b>Conquer Complexity</b><span>find clear direction in complex situations</span></div><div class='mini-card'><b>Lead with Integrity</b><span>stay honest, face hard issues and stay true to your values</span></div><div class='mini-card'><b>Grow by Growing Others</b><span>help clients, colleagues and communities grow</span></div></div>
+</section>
+
+<section id="star">
+<h2>Behavioural · 6 STAR Frames</h2>
+<p>These need your real experience. Memorise the speaking frame first; replace the blanks with something that really happened.</p>
+<div class="note"><b>STAR idea:</b> what happened → what you needed to do → what you did → result / lesson.</div>
+<details class="card"><summary><span>Teamwork</span><span class="openhint">tap to show</span></summary>
+<div class="answer">There was one group assignment where ____. My part was ____. So I ____. In the end, ____. I learned that ____.</div></details><details class="card"><summary><span>Challenge</span><span class="openhint">tap to show</span></summary>
+<div class="answer">One challenge I faced was ____. I had to ____. So I ____. In the end, ____. It taught me that ____.</div></details><details class="card"><summary><span>Leadership</span><span class="openhint">tap to show</span></summary>
+<div class="answer">In one group project, the team needed some direction. So I ____. In the end, ____. I learned that ____.</div></details><details class="card"><summary><span>Failure</span><span class="openhint">tap to show</span></summary>
+<div class="answer">One time, ____. I realised something had gone wrong. So I ____. In the end, ____. Since then, ____.</div></details><details class="card"><summary><span>Tight deadline</span><span class="openhint">tap to show</span></summary>
+<div class="answer">During one project, the deadline was quite tight. So I focused on ____. I also ____. In the end, ____. I learned that ____.</div></details><details class="card"><summary><span>Conflict</span><span class="openhint">tap to show</span></summary>
+<div class="answer">In one group project, we had different opinions about ____. I listened to the other person and ____. In the end, ____. I learned that ____.</div></details>
+</section>
+
+<section id="case">
+<h2>Scenario B · 7 Cases Only</h2>
+<p>Your teacher said only Scenario B will be tested. Memorise the short route, not a long essay.</p>
+
+<details class="card case">
+  <summary><span>Set B 1 · Sarah</span><span class="openhint">tap to show</span></summary>
+  <div class="keys"><b>Remember:</b> uncomfortable → listen → protect → proper report</div>
+  <div class="answer">The main problem is that Sarah feels uncomfortable and may not feel safe. First, I would talk to her privately and understand what happened. I would make sure she does not have to work alone with David for now. Then I would report the issue properly so it can be checked fairly. I think this protects Sarah without judging the situation too quickly.</div>
+  <div class="follow"><b>Follow-up: What if David denies it?</b><br>I would check the facts, such as messages, schedules or witnesses if there are any. I would also hear David&#x27;s side, but Sarah&#x27;s safety would still come first.</div>
+</details>
+<details class="card case">
+  <summary><span>Set B 2 · Ahmad</span><span class="openhint">tap to show</span></summary>
+  <div class="keys"><b>Remember:</b> fraud → keep records → report → protect yourself</div>
+  <div class="answer">The main issue is serious misconduct. I would not tell Ahmad to ignore it or join in. First, he should keep clear records of what he has actually seen. Then he should report it through a proper internal channel. If nothing happens, he may need to take it to a higher level. The main thing is to protect his integrity and avoid becoming part of the wrongdoing.</div>
+  <div class="follow"><b>Follow-up: What if Ahmad is afraid of losing his job?</b><br>I understand why he would be worried. I would tell him to keep the report factual, use a proper channel and protect his own records. But I would still not advise him to take part in something dishonest.</div>
+</details>
+<details class="card case">
+  <summary><span>Set B 3 · Mei Ling</span><span class="openhint">tap to show</span></summary>
+  <div class="keys"><b>Remember:</b> sick → understand → temporary support → review</div>
+  <div class="answer">The main issue is Mei Ling&#x27;s health and the effect on the team. First, I would talk to her privately and understand her condition. Then I would check with HR for a safe temporary arrangement. For example, there may be another way for her to work while she recovers. After that, I would review the situation again. I think this is fair to both Mei Ling and the team.</div>
+  <div class="follow"><b>Follow-up: What if the team says this is special treatment?</b><br>I would explain that the arrangement is temporary because of a health issue. Fairness does not always mean treating every situation in exactly the same way.</div>
+</details>
+<details class="card case">
+  <summary><span>Set B 4 · Krishnan</span><span class="openhint">tap to show</span></summary>
+  <div class="keys"><b>Remember:</b> racist comment → record → report → higher level</div>
+  <div class="answer">The main issue is racist abuse and the poor response from the Team Leader. First, I would tell Krishnan to write down what happened and make a formal report. He should ask the company how it protects staff from abusive customers. If the issue is ignored, he should take it to a higher level. Staff should not have to accept racist comments just because they come from a customer.</div>
+  <div class="follow"><b>Follow-up: What if the customer is important?</b><br>The company can still stay professional with the customer, but I would not ask an employee to accept racist abuse. There still needs to be a clear boundary.</div>
+</details>
+<details class="card case">
+  <summary><span>Set B 5 · Marcus</span><span class="openhint">tap to show</span></summary>
+  <div class="keys"><b>Remember:</b> favouritism → check facts → clear criteria → escalate</div>
+  <div class="answer">The main issue is possible favouritism. First, I would check how projects are being given out and compare the performance of the team members. Then I would ask for clearer criteria for future projects. If the same unfair pattern continues, I would raise the issue to a higher level. I think the process should be transparent so the team can trust it.</div>
+  <div class="follow"><b>Follow-up: What if Marcus really is the strongest?</b><br>Then he may deserve some difficult projects. But the criteria should still be clear, and the other team members should also get chances to develop.</div>
+</details>
+<details class="card case">
+  <summary><span>Set B 6 · Lina</span><span class="openhint">tap to show</span></summary>
+  <div class="keys"><b>Remember:</b> say no → keep record → report if repeated</div>
+  <div class="answer">The main issue is that Ryan is asking Lina to do something dishonest. I would tell Lina to say no clearly because clocking in for someone else could also put her job at risk. If Ryan keeps pressuring her, she should keep a record of it. If it continues, she should report it properly. I think protecting her own integrity is more important than trying to keep Ryan happy.</div>
+  <div class="follow"><b>Follow-up: What if Ryan turns other coworkers against Lina?</b><br>I would stay professional and avoid arguing with people. If it becomes bullying or affects her work, I would document that and report it separately.</div>
+</details>
+<details class="card case">
+  <summary><span>Set B 7 · Aisha</span><span class="openhint">tap to show</span></summary>
+  <div class="keys"><b>Remember:</b> check records → follow process → do not pay without proof</div>
+  <div class="answer">The main issue is that there is no clear proof that Aisha lost the book. First, I would check the system records and the normal return process. Then I would explain the evidence calmly and ask the manager to follow the normal dispute process. I would not ask Aisha to pay just to end the complaint. The decision should be based on evidence, not pressure.</div>
+  <div class="follow"><b>Follow-up: What if the manager says paying RM200 is easier?</b><br>I would say the easiest solution is not always the fairest one. If an employee is forced to pay without proof, it can create a bad example for future cases.</div>
+</details>
+</section>
+</main>
+</body>
+</html>
